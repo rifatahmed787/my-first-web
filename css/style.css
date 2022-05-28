@@ -1,0 +1,337 @@
+h1{
+	color:red;
+	background-color:green;
+	font-size:40px;
+	text-align:center;
+}
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:'roboto' ,sans-serif;
+}
+
+p{
+	line-height:30px;
+}
+
+*{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	  box-sizing:border-box;
+}
+ 
+.container{
+	max-width:1170px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#slider{
+	
+	background-size:cover;
+	background-position:center center;
+	padding:40px 0;
+}
+
+.overlay{
+	background:url(../CSE Images/what.jpg)no-repeat;
+	margin:0;
+	padding:0;
+	background-color:rgba(0 ,0 ,0 ,.3);
+}
+
+.logo{
+	width:20%;
+	float:left;
+	
+}
+
+.menu{
+	
+	float:right;
+	margin-top:20px;
+} 
+
+.menu ul{
+	margin:0;
+	padding:0;
+}
+
+.menu ul li{
+	float:left;
+	list-style:none;
+	
+}
+
+.menu ul li  a{
+	text-decoration:none;  
+	font-size:20px;
+	padding:10px 20px;
+	text-transform:uppercase;
+}
+
+.menu ul li  a:hover{
+	color:#059395;
+}
+
+.slider-content{
+	padding:200px 0;
+	text-align:center;
+	color:blue;
+}
+
+
+.slider-content h3{
+	font-size:40px;
+	margin-bottom:15px;
+}
+
+.slider-content h2{
+	font-size:75px;
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+	border-left:2px solid black;
+	border-right:2px solid black;
+	max-width:900px;
+	display:inline-block;
+	padding:20px 30px;
+	margin-bottom:15px;
+}
+
+.slider-content h2 span{
+	color:#209505;
+}
+
+.slider-content h4{
+	font-size:30px;
+}
+
+
+
+
+#about-me{
+	color:#8d8c8c;
+	padding:80px 0;
+}
+
+.about-top{
+	text-align:center;
+}
+
+.about-top h2{
+	font-size:36px;
+	text-transform:uppercase;
+}
+
+.about-top p{
+	max-width:700px;
+	margin:0 auto;
+	
+}
+
+.about-content{
+    text-align:center;
+}
+
+.about{
+	width:22%;
+	float:left;
+	padding:60px 0;
+}
+
+.about i{
+	font-size:40px;
+	margin-bottom:20px;  
+}
+
+.about h2{
+	text-transform:uppercase;
+}
+
+.about p{
+	margin-top:15px;
+}
+
+.about:hover i,
+.about:hover h2{
+	color:#87d37c;
+}
+
+
+
+#service{
+	background-color:#f6f9f9;
+	padding:80px 0;
+}
+
+.service-top{
+	color:#a7a7a7;
+	text-align:center;
+	margin-bottom:30px;
+}
+
+.service-top h2{
+	font-size:36px;
+	text-transform:uppercase;
+}
+
+.service-top p{
+	max-width:700px;
+	margin:0 auto;
+}
+
+.service-content{
+	
+}
+
+.services{
+	width:25%;
+	float:left;
+	padding-right:15px;
+}
+
+.services img{
+	width:100%;
+}
+
+
+#contact-me{
+	
+}
+
+.contact-top{
+	text-align:center;
+	margin-bottom:30px;
+	color:#8d8c8c; 
+}
+
+.contact-top h2{
+	font-size:36px;
+	text-transform:uppercase;
+	margin-bottom:10px;
+}
+
+.contact-top p{
+	max-width:700px;
+	margin:0 auto;
+}	
+
+
+.contact-single{
+	width:33.3333%;
+	float:left;
+	text-align:center;
+	margin-top:30px;
+    margin-bottom:40px;	
+	color:#8d8c8c;
+}
+
+.contact-single i{
+	font-size:50px;
+	margin-bottom:20px;
+}
+
+.contact-single h2{
+	font-size:20px;
+	padding:10px 0;
+	text-transform:uppercase;
+}
+
+.contact-single h3{
+	font-size:15px;
+	margin-bottom:20px; 
+}
+
+.contact-single:hover{
+	color:#87d37c;
+}
+
+
+
+
+.contact-form{
+	width:50%;
+	float:left;
+	padding-right:15px;
+}
+.contact-form input{
+	width:100%;
+	padding:12px;
+	margin-bottom:20px;
+}
+
+.messege{
+	width:50%;
+	float:right;
+}
+.messege textarea{
+	width:100%;
+	padding:20px;
+	height:110px;
+}
+.messege input{
+	width:130px;
+	height:40px;
+	padding:12px;
+	margin-top:12px;
+	text-transform:uppercase;
+}
+.messege input:hover{
+	background-color:#87d37c;
+	color:#fff;
+	border:none;
+}
+
+
+
+#social-icon{
+	background-color:#000000;
+	padding:20px;
+	text-align:center;
+	margin-top:40px;
+	margin-bottom:5px;
+}
+
+.social-top i{
+	font-size:20px;
+	color:#fff;
+	width:50px;
+	height:50px;
+	line-height:51px;
+	border-radius:50%;
+}
+
+.fa-facebook-official{
+	background-color:#3a5695;
+}
+
+.fa-google-plus-official{
+	background-color:#cd3c2a;
+}
+
+.fa-linkedin{
+	background-color:#007bb6;
+}
+
+.fa-twitter{
+	background-color:#5ea9dd;
+}
+
+.fa-skype{
+	background-color:#00aff0;
+}
+
+.fa-whatsapp{
+	background-color:#03a651;
+}
+
+
+footer{
+	padding:20px 0;
+	text-align:center;
+}
